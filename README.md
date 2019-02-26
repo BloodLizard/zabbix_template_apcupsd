@@ -1,7 +1,9 @@
 Zabbix template apcupsd
 ==========================
 Based on https://github.com/cavazquez/zabbix_template_apcupsd
+
 Specified for Smart-UPS 1500
+
 Tested on Zabbix Version 4.0
 
 Should work on 3.2
