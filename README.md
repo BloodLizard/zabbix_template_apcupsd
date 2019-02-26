@@ -1,7 +1,10 @@
 Zabbix template apcupsd
 ==========================
+Based on https://github.com/cavazquez/zabbix_template_apcupsd
 
-Tested on Zabbix Version 3.2
+Tested on Zabbix Version 4.0
+
+Should work on 3.2
 
 FEATURES
 --------
@@ -22,7 +25,7 @@ REQUIREMENTS
 INSTALLATION
 ------------
 * Agent
-  * Copy __userparameter_apcupsd.conf__ to __/etc/zabbix/zabbix_agentd.d/userparameter_apcupsd.conf__
+  * Copy __apcupsd.conf__ to __/etc/zabbix/zabbix_agentd.d/apcupsd.conf__
   * Restart zabbix_agent
 * Server
   * Import template __template_apcupsd.xml__ file
